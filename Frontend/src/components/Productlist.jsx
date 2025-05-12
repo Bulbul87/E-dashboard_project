@@ -57,7 +57,7 @@ function Productlist() {
     <div className="min-h-screen flex flex-col">
       {/* Product List Container */}
       <div className="flex-grow container mx-auto p-6">
-        <h1 className="text-4xl font-bold text-center text-violet-800">
+        <h1 className="text-4xl font-bold text-center text-violet-900">
           Product List
         </h1>
 
