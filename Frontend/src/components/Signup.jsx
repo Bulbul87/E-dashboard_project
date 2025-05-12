@@ -32,7 +32,7 @@ const Signup = () => {
     <div className="flex justify-center items-center min-h-screen">
      <div className="flex flex-col">
         <h1 className="text-violet-800 font-bold text-4xl text-center ">
-          Register
+          REGISTER 
         </h1>
         <input
           className="text-center border border-violet-900 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-800 m-2"
