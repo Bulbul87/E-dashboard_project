@@ -20,7 +20,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/"
-                className="hover:text-purple-600 active:text-red-500"
+                className="hover:text-purple-600 active:text-green-500"
               >
                 Products
               </Link>
