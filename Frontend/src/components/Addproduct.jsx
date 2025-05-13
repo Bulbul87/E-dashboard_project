@@ -41,11 +41,11 @@ const Addproduct = () => {
   return (
     <div className='flex flex-col items-center justify-center min-h-screen'>
       <div className='flex flex-col text-center w-64 space-y-4'>
-        <h1 className='text-4xl font-bold text-violet-800 mb-4'>Add Product</h1>
+        <h1 className='text-4xl font-bold text-violet-900 mb-4'>Add Product</h1>
     <input
           type="text"
           placeholder='Enter product name'
-          className='text-center border border-violet-800 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-800'
+          className='text-center border border-violet-900 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-900'
           onChange={(e) => setName(e.target.value)}
           value={name}
         />
@@ -54,7 +54,7 @@ const Addproduct = () => {
         <input
           type="number"
           placeholder='Enter product price'
-          className='text-center border border-violet-800 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-800'
+          className='text-center border border-violet-900 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-900'
           onChange={(e) => setPrice(e.target.value)}
           value={price}
         />
@@ -63,7 +63,7 @@ const Addproduct = () => {
         <input
           type="text"
           placeholder='Enter product category'
-          className='text-center border border-violet-800 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-800'
+          className='text-center border border-violet-900 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-900'
           onChange={(e) => setCategory(e.target.value)}
           value={category}
         />
@@ -72,7 +72,7 @@ const Addproduct = () => {
         <input
           type="text"
           placeholder='Enter product company'
-          className='text-center border border-violet-800 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-800'
+          className='text-center border border-violet-900 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-violet-900'
           onChange={(e) => setCompany(e.target.value)}
           value={company}
         />
@@ -80,7 +80,7 @@ const Addproduct = () => {
 
         <button 
           onClick={addproduct} 
-          className='border-2 rounded-xl border-violet-800 font-semibold p-2 hover:bg-violet-800 hover:text-white'>
+          className='border-2 rounded-xl border-violet-900 font-semibold p-2 hover:bg-violet-900 hover:text-white'>
           Add product
         </button>
       </div>
