@@ -28,7 +28,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/add"
-                className="hover:text-purple-600 active:text-red-500"
+                className="hover:text-purple-600 active:text-green-500"
               >
                 Add Products
               </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/update"
-                className="hover:text-purple-600 active:text-red-500"
+                className="hover:text-purple-600 active:text-green-500"
               >
                 Update Products
               </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/profile"
-                className="hover:text-purple-600 active:text-red-500"
+                className="hover:text-purple-600 active:text-green-500"
               >
                 Profile
               </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
               <Link
                 onClick={logout}
                 to="/signup"
-                className="hover:text-purple-600 active:text-red-500"
+                className="hover:text-purple-600 active:text-green-500"
               >
                 Logout ({JSON.parse(auth).name})
               </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/signup"
-                className="hover:text-purple-600 active:text-red-500"
+                className="hover:text-purple-600 active:text-green-500"
               >
                 Sign Up
               </Link>
@@ -72,7 +72,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/login"
-                className="hover:text-purple-600 active:text-red-500"
+                className="hover:text-purple-600 active:text-green-500"
               >
                 Login
               </Link>
