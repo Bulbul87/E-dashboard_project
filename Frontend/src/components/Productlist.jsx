@@ -66,7 +66,7 @@ function Productlist() {
           <input
             type="text"
             placeholder="Search product..."
-            className="border border-violet-800 p-3 w-full max-w-lg rounded-md focus:outline-none focus:ring-2 focus:ring-violet-800"
+            className="border border-violet-900 p-3 w-full max-w-lg rounded-md focus:outline-none focus:ring-2 focus:ring-violet-900"
             onChange={searchHandle}
           />
         </div>
@@ -75,7 +75,7 @@ function Productlist() {
         <div className="overflow-y-auto max-h-96 border border-gray-300 rounded-lg">
           <table className="w-full border-collapse bg-white">
             {/* Fixed Header */}
-            <thead className="sticky top-0 bg-violet-800 text-white text-lg">
+            <thead className="sticky top-0 bg-violet-900 text-white text-lg">
               <tr>
                 <th className="p-3 text-left">S.No</th>
                 <th className="p-3 text-left">Name</th>
